@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040888782A6D366D00163BF9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 040888772A6D366D00163BF9 /* Lottie */; };
+		0408888C2A6D4A5800163BF9 /* animation_snow.json in Resources */ = {isa = PBXBuildFile; fileRef = 0408888B2A6D4A5800163BF9 /* animation_snow.json */; };
+		0408888E2A6D4AF600163BF9 /* animation_cloud.json in Resources */ = {isa = PBXBuildFile; fileRef = 0408888D2A6D4AF600163BF9 /* animation_cloud.json */; };
+		040888902A6D4B1600163BF9 /* animation_sun.json in Resources */ = {isa = PBXBuildFile; fileRef = 0408888F2A6D4B1600163BF9 /* animation_sun.json */; };
+		040888942A6D4B7F00163BF9 /* animation_storm.json in Resources */ = {isa = PBXBuildFile; fileRef = 040888932A6D4B7E00163BF9 /* animation_storm.json */; };
+		040888962A6D4BA900163BF9 /* animation_rain.json in Resources */ = {isa = PBXBuildFile; fileRef = 040888952A6D4BA900163BF9 /* animation_rain.json */; };
+		040888982A6D4BB700163BF9 /* animation_drizzle.json in Resources */ = {isa = PBXBuildFile; fileRef = 040888972A6D4BB700163BF9 /* animation_drizzle.json */; };
+		0408889A2A6D4C5F00163BF9 /* animation_fog.json in Resources */ = {isa = PBXBuildFile; fileRef = 040888992A6D4C5F00163BF9 /* animation_fog.json */; };
 		040E400329E5EECC002B8FA9 /* WeatherNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E400229E5EECC002B8FA9 /* WeatherNetworkManager.swift */; };
 		040E400529E5EEE0002B8FA9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E400429E5EEE0002B8FA9 /* Constants.swift */; };
 		04C9008129E5D4A00099BCDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9008029E5D4A00099BCDB /* AppDelegate.swift */; };
@@ -26,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0408888B2A6D4A5800163BF9 /* animation_snow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_snow.json; sourceTree = "<group>"; };
+		0408888D2A6D4AF600163BF9 /* animation_cloud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_cloud.json; sourceTree = "<group>"; };
+		0408888F2A6D4B1600163BF9 /* animation_sun.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_sun.json; sourceTree = "<group>"; };
+		040888932A6D4B7E00163BF9 /* animation_storm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_storm.json; sourceTree = "<group>"; };
+		040888952A6D4BA900163BF9 /* animation_rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_rain.json; sourceTree = "<group>"; };
+		040888972A6D4BB700163BF9 /* animation_drizzle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_drizzle.json; sourceTree = "<group>"; };
+		040888992A6D4C5F00163BF9 /* animation_fog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_fog.json; sourceTree = "<group>"; };
 		040E400229E5EECC002B8FA9 /* WeatherNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkManager.swift; sourceTree = "<group>"; };
 		040E400429E5EEE0002B8FA9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04C9007D29E5D4A00099BCDB /* WeatherTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,12 +66,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040888782A6D366D00163BF9 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042EEC2E2A6459210002A880 /* Particleview */ = {
+			isa = PBXGroup;
+			children = (
+				04D0F27529F5C26B00D8D31D /* ParticleView.swift */,
+				04D0F27729F5C2EA00D8D31D /* ParticleScene.sks */,
+				04D0F27829F5C2EA00D8D31D /* Assets.xcassets */,
+			);
+			path = Particleview;
+			sourceTree = "<group>";
+		};
+		042EEC352A6C36860002A880 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				040888992A6D4C5F00163BF9 /* animation_fog.json */,
+				040888972A6D4BB700163BF9 /* animation_drizzle.json */,
+				040888952A6D4BA900163BF9 /* animation_rain.json */,
+				040888932A6D4B7E00163BF9 /* animation_storm.json */,
+				0408888F2A6D4B1600163BF9 /* animation_sun.json */,
+				0408888D2A6D4AF600163BF9 /* animation_cloud.json */,
+				0408888B2A6D4A5800163BF9 /* animation_snow.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		04C9007429E5D49F0099BCDB = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				04C9008E29E5D4A30099BCDB /* Info.plist */,
+				04C9009429E5D7F20099BCDB /* Model */,
+				04C9009529E5D7FC0099BCDB /* View */,
+				04C9009629E5D8050099BCDB /* Controllers */,
 				04C9009829E5DB360099BCDB /* Custom View Element */,
 				04C9009729E5D81C0099BCDB /* Supporting files */,
-				04C9009629E5D8050099BCDB /* Controllers */,
-				04C9009529E5D7FC0099BCDB /* View */,
-				04C9009429E5D7F20099BCDB /* Model */,
+				042EEC352A6C36860002A880 /* Lottie */,
 			);
 			path = WeatherTracker;
 			sourceTree = "<group>";
@@ -89,10 +130,10 @@
 		04C9009429E5D7F20099BCDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				040E400429E5EEE0002B8FA9 /* Constants.swift */,
 				040E400229E5EECC002B8FA9 /* WeatherNetworkManager.swift */,
 				04D0F27129F5638E00D8D31D /* WeatherData.swift */,
 				04D0F27329F568D800D8D31D /* WeatherModel.swift */,
-				040E400429E5EEE0002B8FA9 /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,11 +141,9 @@
 		04C9009529E5D7FC0099BCDB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				042EEC2E2A6459210002A880 /* Particleview */,
 				04C9008B29E5D4A30099BCDB /* LaunchScreen.storyboard */,
 				04C9008629E5D4A00099BCDB /* Main.storyboard */,
-				04D0F27529F5C26B00D8D31D /* ParticleView.swift */,
-				04D0F27729F5C2EA00D8D31D /* ParticleScene.sks */,
-				04D0F27829F5C2EA00D8D31D /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +192,9 @@
 			dependencies = (
 			);
 			name = WeatherTracker;
+			packageProductDependencies = (
+				040888772A6D366D00163BF9 /* Lottie */,
+			);
 			productName = WeatherTracker;
 			productReference = 04C9007D29E5D4A00099BCDB /* WeatherTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -181,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 04C9007429E5D49F0099BCDB;
+			packageReferences = (
+				040888762A6D366D00163BF9 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 04C9007E29E5D4A00099BCDB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,10 +240,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040888942A6D4B7F00163BF9 /* animation_storm.json in Resources */,
+				040888902A6D4B1600163BF9 /* animation_sun.json in Resources */,
+				040888962A6D4BA900163BF9 /* animation_rain.json in Resources */,
 				04C9008D29E5D4A30099BCDB /* LaunchScreen.storyboard in Resources */,
+				0408888E2A6D4AF600163BF9 /* animation_cloud.json in Resources */,
+				0408888C2A6D4A5800163BF9 /* animation_snow.json in Resources */,
 				04C9008A29E5D4A30099BCDB /* Assets.xcassets in Resources */,
+				040888982A6D4BB700163BF9 /* animation_drizzle.json in Resources */,
 				04D0F27929F5C2EA00D8D31D /* ParticleScene.sks in Resources */,
 				04C9008829E5D4A00099BCDB /* Main.storyboard in Resources */,
+				0408889A2A6D4C5F00163BF9 /* animation_fog.json in Resources */,
 				04D0F27A29F5C2EA00D8D31D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -350,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -370,11 +422,12 @@
 				DEVELOPMENT_TEAM = 3XK355J24V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherTracker/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need youe location to get the current weather for where you are.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,11 +451,12 @@
 				DEVELOPMENT_TEAM = 3XK355J24V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherTracker/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need youe location to get the current weather for where you are.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,6 +492,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		040888762A6D366D00163BF9 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		040888772A6D366D00163BF9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040888762A6D366D00163BF9 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04C9007529E5D49F0099BCDB /* Project object */;
 }
