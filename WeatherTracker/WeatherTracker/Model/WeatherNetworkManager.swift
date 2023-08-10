@@ -58,7 +58,7 @@ struct WeatherManager {
     func parseJSON(_ weatherData: Data) -> WeatherModel? {
         let decoder = JSONDecoder()
         do {
-           let decodeData = try decoder.decode(WeatherData.self, from: weatherData)
+            let decodeData = try decoder.decode(WeatherData.self, from: weatherData)
             let id = decodeData.weather[0].id
             let temp = decodeData.main.temp
             let name = decodeData.name
@@ -71,9 +71,5 @@ struct WeatherManager {
             delegate?.didFailWithError(error: error)
             return nil
         }
-        
     }
-    
-    
-    
 }
